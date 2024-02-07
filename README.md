@@ -28,8 +28,7 @@
   - for process, check [buildingGPT2.ipynb](./GPT2/buildingGPT2.ipynb)
   - model [implementation](./GPT2/gpt2.py)
   - built in such a way that it supports loading pretrained openAI/huggingface weights [gpt2-load-via-hf.ipynb](./GPT2/gpt2-load-via-hf.ipynb)
-  - for my own custom trained causal LM, checkout [shakespeareGPT](https://github.com/shreydan/shakespeareGPT) which is although a bit more like GPT-1.
-
+  - for my own custom trained causal LM, checkout 
 
 - **OpenAI CLIP**
   - implemented `ViT-B/32` variant
@@ -38,7 +37,7 @@
   - model [implementation](./OpenAI-CLIP/model.py)
   - zero-shot inference [code](./OpenAI-CLIP/zeroshot.py)
   - built in such a way that it supports loading pretrained openAI weights and IT WORKS!!!
-  - My lighter implementation of this using existing image and language models trained on Flickr8k dataset is available here: [liteCLIP](https://github.com/shreydan/liteclip)
+  - My lighter implementation of this using existing image and language models trained on Flickr8k dataset 
 
 
 - **Encoder Decoder Transformer**
@@ -49,14 +48,14 @@
   - I trained a model for multilingual machine translation.
     - Translates english to hindi and telugu.
     - change: single encoder & decoder embedding layer since I used a single tokenizer.
-    - for the code and results check: [shreydan/multilingual-translation](https://github.com/shreydan/multilingual-translation)
+    
 
 
 - **BERT - MLM**
   - for process of masked language modeling, check [masked-language-modeling.ipynb](./BERT-MLM/masked-language-modeling.ipynb)
   - model [implementation](./BERT-MLM/model.py)
   - simplification: for pre-training no use of [CLS] & [SEP] tokens since I only built the model for masked language modeling and not for next sentence prediction. 
-  - I trained an entire model on the wikipedia dataset, more info in [shreydan/masked-language-modeling](https://github.com/shreydan/masked-language-modeling) repo.
+  - I trained an entire model on the wikipedia dataset
   - once, pretrained the MLM head can be replaced with any other downstream task head.
 
 - **ViT MAE**
