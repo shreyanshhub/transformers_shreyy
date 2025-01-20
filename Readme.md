@@ -1,7 +1,7 @@
 # ScratchFormers
 ### implementing transformers from scratch.
 
-> Attention is all you need.
+> Attention is all you need
 
 ### Starters
 
